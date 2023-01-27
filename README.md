@@ -20,5 +20,5 @@ More precisely :
 - [6-Images.ipynb](6-Images.ipynb) > Various functions written to produce images related to the results obtained with other scripts. Notably, the functional enrichment function allowed the production of **S10C** comparing N6-treated *versus* DMSO-treated B cells. "N6-gene signature" and "*Il10*-gene signature" were defined here and allowed the production of **S14**, **S15**, and **S16**.
 - [7-DecoupleR.ipynb](7-DecoupleR.ipynb) > Biological pathway activity inference using DecoupleR was performed to produce **S10D** about UPR pathway.
 
-## A more complete analysis of the dataset
+
 
