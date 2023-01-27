@@ -15,13 +15,10 @@ The scripts presented here lead to the figures **S10**, **S12B**, **S13A**, **S1
 More precisely :
 - [0-kb_count_matrices.ipynb](0-kb_count_matrices.ipynb) > Count matrices are generated from raw data.
 - [1-QC.ipynb](1-QC.ipynb) > Quality control steps performed to exclude poor quality cells and genes. Figures **S10A** and **S10B**, **S13A** can be produced at this step using a scanpy framework. **S12B** was produced using a Seurat framework.
-- [3-Co expression.ipynb](3-Co expression.ipynb) > *Il10* co-expression analysis detecting genes that are positively or negatively co-expressed with *Il10* in various cell subsets, thus helping to define the "N6-gene signature".
+- [3-Co_expression.ipynb](3-Co_expression.ipynb) > *Il10* co-expression analysis detecting genes that are positively or negatively co-expressed with *Il10* in various cell subsets, thus helping to define the "N6-gene signature".
 - [4-Differential.ipynb](4-Differential.ipynb) > Differential expression analysis comparing various cell subsets, thus helping to define the "*Il10*-gene signature".
-- [6-Images.ipynb](6-Images.ipynb) > Various functions written to produce images related to the results obtained with other scripts. Notably, the functional enrichment function allowed the production of **S10C** comparing N6-treated *versus* DMSO-treated B cells.
+- [6-Images.ipynb](6-Images.ipynb) > Various functions written to produce images related to the results obtained with other scripts. Notably, the functional enrichment function allowed the production of **S10C** comparing N6-treated *versus* DMSO-treated B cells. "N6-gene signature" and "*Il10*-gene signature" were defined here and allowed the production of **S14**, **S15**, and **S16**.
 - [7-DecoupleR.ipynb](7-DecoupleR.ipynb) > Biological pathway activity inference using DecoupleR was performed to produce **S10D** about UPR pathway.
--
--
--
 
 ## A more complete analysis of the dataset
 
